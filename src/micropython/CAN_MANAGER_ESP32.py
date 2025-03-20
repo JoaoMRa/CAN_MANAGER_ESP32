@@ -2,7 +2,7 @@ import time
 from machine import Pin, SPI
 import mcp2515
 
-class CAN_Manager:
+class CAN_Manager_ESP32:
     def __init__(self, cs_pin):
         self.cs = Pin(cs_pin, Pin.OUT)
         self.spi = SPI(1, baudrate=10000000, polarity=0, phase=0)

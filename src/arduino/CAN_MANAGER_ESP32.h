@@ -5,9 +5,9 @@
 #include <SPI.h>
 #include <mcp_can.h>
 
-class CAN_Manager {
+class CAN_Manager_ESP32 {
 public:
-    CAN_Manager(int csPin);
+    CAN_Manager_ESP32(int csPin);
     bool begin();
     bool checkIgnition();
     unsigned long getEngineRunTime();
