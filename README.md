@@ -22,7 +22,7 @@ CAN_Manager_ESP32 can(5); // CS pin
 For MicroPython
 Upload CAN_MANAGER_ESP32.py to your ESP32 using Thonny or mpy-cross.
 Import the library in your MicroPython code:
-
+```
 ```python
 from CAN_MANAGER_ESP32 import CAN_Manager_ESP32
 can = CAN_MANAGER_ESP32(5)
